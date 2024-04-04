@@ -1,0 +1,57 @@
+# BASHCAVE GLOBAL GITIGNORE
+
+# Editor backups
+*~
+*.bak
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Bash script-specific ignores
+*.log
+*.tmp
+
+# Compiled Source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Sensitive data and config files that may contain secrets
+*.pem
+*.key
+config/
+secrets/
+.env
+.env.local
+
+# Ignore directories created by popular IDEs and code editors.
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignore performance and error logs
+performance/
+error_logs/
